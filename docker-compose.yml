@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    image: 606635532400.dkr.ecr.us-east-1.amazonaws.com/app2:latest
+    ports:
+      - "80:80"
+    restart: always
